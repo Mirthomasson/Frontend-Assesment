@@ -4,6 +4,7 @@ $light: 400;
 $grey: #828282;
 $lt-grey: #919191;
 $black: #282828;
+$white: #ffffff;
 
 * {
     box-sizing: border-box;
@@ -303,7 +304,7 @@ span {
     border-radius: 50px;
     letter-spacing: 0.05em;
     font-family: $font;
-    color: #ffffff;
+    color: $white;
     padding: 1em;
     border: none;
     width: 305px;
@@ -430,4 +431,52 @@ h3 {
     align-items: flex-start;
     justify-content: center;
     margin: 4em;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 4em;
+}
+
+.email-field {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    padding: 5px 8px;
+    width: 258px;
+    height: 40px;
+    background: #171717;
+    border: 1px solid #5C5C5C;
+    border-radius: 4px 0px 0px 4px;
+    margin-bottom: 2em;
+}
+
+.subscribe-btn {
+    padding: 8px 18px 8px 16px;
+    gap: 4px;
+    width: 112px;
+    height: 40px;
+    background: #43B1E6;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    color: $white;
+}
+
+.subscribe p {
+    color: $lt-grey;
+    font-family: $font;
+}
+
+.subscribe span {
+    font-size: .7em;
+    margin-left: .7em;
+}
+
+.social-icons {
+    margin-top: 2em;
 }
