@@ -30,6 +30,10 @@ h1 {
   margin-bottom: 5em;
 }
 
+.track-info {
+  position: relative;
+}
+
 .tracks img {
   border: 0.5px solid #F1F2F3;
   border-radius: 4.4px;
@@ -46,6 +50,26 @@ h1 {
   height: 0;
   width: 890px;
   margin-left: 4em;
+}
+
+.global {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -25em;
+  top: 1em;
+}
+
+.chart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -22em;
+  top: 1em;
 }
 
 /*# sourceMappingURL=output.css.map */
