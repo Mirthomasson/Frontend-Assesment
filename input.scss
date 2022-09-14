@@ -1,6 +1,7 @@
 $font: 'Lato', sans-serif;
 $bold: 700;
 $light: 400;
+$grey: #828282;
 
 * {
     box-sizing: border-box;
@@ -64,6 +65,7 @@ h1 {
     position: absolute;
     right: -25em;
     top: 1em;
+    color: $grey;
 }
 
 .chart {
@@ -74,5 +76,35 @@ h1 {
     position: absolute;
     right: -22em;
     top: 1em;
+    color: $grey;
 }
 
+.credits-1 {
+    position: absolute;
+    right: -38em;
+    top: 2em;
+    font-family: $font;
+    font-weight: $bold;
+}
+
+.credits-2 {
+    position: absolute;
+    right: -39.5em;
+    top: 2em;
+    font-family: $font;
+    font-weight: $bold;
+}
+
+.remove-save {
+    position: absolute;
+    font-family: $font;
+    color: $grey;
+    right: -38.5em;
+}
+
+.remove-save-2 {
+    position: absolute;
+    font-family: $font;
+    color: $grey;
+    right: -39.5em;
+}

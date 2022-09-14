@@ -60,6 +60,7 @@ h1 {
   position: absolute;
   right: -25em;
   top: 1em;
+  color: #828282;
 }
 
 .chart {
@@ -70,6 +71,37 @@ h1 {
   position: absolute;
   right: -22em;
   top: 1em;
+  color: #828282;
+}
+
+.credits-1 {
+  position: absolute;
+  right: -38em;
+  top: 2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.credits-2 {
+  position: absolute;
+  right: -39.5em;
+  top: 2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.remove-save {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  color: #828282;
+  right: -38.5em;
+}
+
+.remove-save-2 {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  color: #828282;
+  right: -39.5em;
 }
 
 /*# sourceMappingURL=output.css.map */
