@@ -2,6 +2,8 @@ $font: 'Lato', sans-serif;
 $bold: 700;
 $light: 400;
 $grey: #828282;
+$lt-grey: #919191;
+$black: #282828;
 
 * {
     box-sizing: border-box;
@@ -18,6 +20,9 @@ h1 {
     margin: 2em;
     margin-bottom: 1em;
 }
+
+
+// MY CART
 
 .cart {
     display: flex;
@@ -47,14 +52,15 @@ h1 {
 .tracks p {
     font-family: $font;
     font-weight: $bold;
-    margin: .8em;
+    margin: .5em .8em;
 }
 
 .border {
     border: 1px solid #DADADA;
     height: 0;
     width: 890px;
-    margin-left: 4em;
+    margin-left: 4.5em;
+    position: absolute;
 }
 
 .global {
@@ -63,7 +69,7 @@ h1 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: -25em;
+    right: -21em;
     top: 1em;
     color: $grey;
 }
@@ -74,7 +80,7 @@ h1 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: -22em;
+    right: -17.5em;
     top: 1em;
     color: $grey;
 }
@@ -82,7 +88,7 @@ h1 {
 .credits-1 {
     position: absolute;
     right: -38em;
-    top: 2em;
+    top: 1.6em;
     font-family: $font;
     font-weight: $bold;
 }
@@ -100,6 +106,7 @@ h1 {
     font-family: $font;
     color: $grey;
     right: -38.5em;
+    bottom: -3.5em;
 }
 
 .remove-save-2 {
@@ -107,4 +114,269 @@ h1 {
     font-family: $font;
     color: $grey;
     right: -39.5em;
+    bottom: -3.5em;
+}
+
+.border-2 {
+    border: 1px solid #DADADA;
+    height: 0;
+    width: 890px;
+    margin-left: -6em;
+    bottom: -6.5em;
+    position: absolute;
+}
+
+.continue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -9.5em;
+    left: -6em;
+}
+
+.continue p {
+    color: #43B1E6;
+    font-weight: $light;
+    width: 152px;
+    margin-left: 5px;
+}
+
+
+// SAVED FOR LATER
+
+h2 {
+    position: absolute;
+    font-family: $font;
+    margin: 3em;
+    bottom: 5em;
+}
+
+.saved-tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.saved-track-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 1em 5em;
+    position: absolute;
+    bottom: 6em;
+}
+
+.saved-track-info {
+    margin: .5em;
+    font-family: $font;
+}
+
+.saved-global {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -23em;
+    top: 1em;
+    color: $grey;
+}
+
+.saved-global p {
+    font-weight: $bold;
+    margin-left: 1em;
+}
+
+.remove {
+    position: absolute;
+    left: 44em;
+    top: 1.4em;
+    color: $grey;
+}
+
+.add-to-cart {
+    width: 125px;
+    height: 32px;
+    position: absolute;
+    left: 58em;
+    top: 1.3em;
+    color: $lt-grey;
+    letter-spacing: 0.02em;
+    border: 1px solid $lt-grey;
+    border-radius: 50px;
+    background: transparent;
+    
+}
+.border-3 {
+    border: 1px solid #DADADA;
+    height: 0;
+    width: 890px;
+    bottom: -2em;
+    position: absolute;
+}
+
+.saved-track-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    bottom: -7em;
+}
+
+.saved-global-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -25em;
+    top: 1em;
+    color: $grey;
+}
+
+.border-4 {
+    border: 1px solid #DADADA;
+    height: 0;
+    width: 890px;
+    bottom: -2em;
+    position: absolute;
+}
+
+.saved-track-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    bottom: -14em;
+}
+
+.border-5 {
+    border: 1px solid #DADADA;
+    height: 0;
+    width: 890px;
+    bottom: -2em;
+    position: absolute;
+}
+
+
+// SIDEBAR
+
+.sidebar {
+    position: absolute;
+    width: 34%;
+    height: 1155px;
+    right: -1em;
+    top: 5.7em;
+    background-color: #fafafa;
+    font-family: $font;
+    font-weight: $bold;
+}
+
+.sidebar-h1 {
+    text-align: left;
+}
+
+.sidebar p {
+    margin: 1em 4em;
+}
+
+.sidebar-border {
+    position: absolute;
+    right: 7em;
+    border: 1px solid #DADADA;
+    width: 25em;
+}
+
+span {
+    color: $lt-grey;
+}
+
+.order-button {
+    position: relative;
+    background: #43B1E6;
+    border-radius: 50px;
+    letter-spacing: 0.05em;
+    font-family: $font;
+    color: #ffffff;
+    padding: 1em;
+    border: none;
+    width: 305px;
+    bottom: -2em;
+    right: -5em;
+    margin-bottom: 2em;
+}
+
+.terms {
+    text-align: center;
+    margin-left: -8.5em;
+    color: #b6b6b6;
+    font-weight: 400;
+}
+
+.terms p {
+    margin-bottom: -1em;
+}
+
+
+// SIDEBAR NUMBER ROW
+
+.sidebar-numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    font-family: $font;
+    font-weight: $bold;
+    color: $lt-grey;
+    line-height: 1.5em;
+    left: -5.5em;
+    top: -23.75em;
+}
+
+.sidebar-numbers p {
+    margin: .5em;
+}
+
+.down-arrow {
+    position: relative;
+    font-weight: $bold;
+    color: $black;
+    transform: scaleX(1.4);
+}
+
+.subtotal-numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: -3.25em;
+}
+
+.subtotal-numbers p {
+    margin-bottom: -1px;
+}
+
+.total {
+    position: relative;
+    bottom: -7em;
+    color: $black;
+}
+
+
+// FOOTER
+
+footer {
+    height: 518px;
+    width: 100%;
+    background-color: $black;
+    bottom: 0;
+    position: relative;
+    bottom: -37em;
 }
