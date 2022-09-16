@@ -623,12 +623,12 @@ footer {
     // MY CART
 
      h1 {
-        position: absolute;
+        position: relative;
         margin: .5em;
     }
 
     .cart {
-        position: absolute;
+        position: relative;
         width: 375px;
         height: 436px;
         left: -4em;
@@ -636,7 +636,7 @@ footer {
     }
 
     .track-info {
-        position: absolute;
+        position: relative;
         width: 180px;
         font-size: 14px;
         line-height: 1em;
