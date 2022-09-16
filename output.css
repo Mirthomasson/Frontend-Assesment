@@ -603,7 +603,7 @@ footer {
   .cart h1 {
     position: relative;
     margin-left: 2.5em;
-    margin-top: 3.5em;
+    margin-top: 1.5em;
     height: 24px;
   }
   .cart {
@@ -611,7 +611,7 @@ footer {
     width: 375px;
     height: 536px;
     left: -4em;
-    top: 3.5em;
+    top: 5.5em;
   }
   .tracks-1 {
     position: relative;
