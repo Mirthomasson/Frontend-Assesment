@@ -573,7 +573,7 @@ footer {
 
 // MEDIA QUERIES
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 
     // NAV-BAR
 
@@ -623,7 +623,7 @@ footer {
     // MY CART
 
      h1 {
-        position: relative;
+        position: absolute;
         margin: .5em;
     }
 
@@ -637,7 +637,7 @@ footer {
     }
 
     .track-info {
-        position: relative;
+        position: absolute;
         width: 180px;
         font-size: 14px;
         line-height: 1em;
@@ -671,7 +671,7 @@ footer {
         height: 48px; 
         width: 48px;
         border-radius: 3px;
-        margin-top: 2em;
+        margin-top: 1.5em;
         margin-right: -.25em;
     }
 
@@ -1109,4 +1109,9 @@ footer {
         height: 48px;
         border-radius: 50px;
     }
+}
+
+
+@media only screen and (max-width: 600px) {
+
 }
