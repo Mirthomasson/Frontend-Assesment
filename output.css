@@ -601,13 +601,14 @@ footer {
   }
   h1 {
     position: relative;
-    margin: 0.5em;
+    margin-left: 2.5em;
+    margin-top: 1.5em;
     height: 24px;
   }
   .cart {
     position: relative;
     width: 375px;
-    height: 436px;
+    height: 536px;
     left: -4em;
     top: 3.5em;
   }
@@ -702,7 +703,7 @@ footer {
     top: 10px;
   }
   .border {
-    top: 7.75em;
+    top: 13em;
     width: 346px;
     left: 0.25em;
   }
