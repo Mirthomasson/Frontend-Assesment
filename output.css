@@ -591,6 +591,9 @@ footer {
     left: -4em;
     top: 3.5em;
   }
+  .tracks {
+    position: relative;
+  }
   .track-info {
     position: relative;
     width: 180px;
