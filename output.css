@@ -599,7 +599,7 @@ footer {
     right: -18em;
     top: calc(50% - 12px);
   }
-  h1 {
+  .cart h1 {
     position: relative;
     margin-left: 2.5em;
     margin-top: 1.5em;
@@ -723,10 +723,15 @@ footer {
   .continue p {
     font-size: 16px;
   }
+  .sidebar-h1 {
+    position: relative;
+    left: -1.5em;
+    bottom: 1.5em;
+  }
   .sidebar {
     position: relative;
     width: 375px;
-    height: 780px;
+    height: 800px;
     top: 1em;
     left: -0.25em;
     padding: 1.5em 0.5em;
@@ -734,7 +739,7 @@ footer {
   .sidebar p {
     position: relative;
     left: -3em;
-    bottom: -1em;
+    bottom: 3em;
   }
   div.terms {
     position: relative;
@@ -744,11 +749,11 @@ footer {
   }
   .promo {
     position: relative;
-    top: -0.75em;
+    top: -5em;
   }
   .sidebar-numbers {
     position: relative;
-    top: -41.5em;
+    top: -42.5em;
     left: -2em;
   }
   i.arrow2.down {
@@ -761,15 +766,15 @@ footer {
     right: -0.5em;
     width: 346px;
     margin-top: -1.5em;
-    bottom: 0;
+    bottom: 4em;
   }
   .subtotal {
     position: relative;
-    top: -1em;
+    top: -5em;
   }
   .tax {
     position: relative;
-    top: -1em;
+    top: -5em;
   }
   .sub-num {
     position: relative;
@@ -781,7 +786,7 @@ footer {
   }
   .summary-total {
     position: relative;
-    top: -0.5em;
+    top: -4.5em;
   }
   .total {
     position: relative;
@@ -792,6 +797,7 @@ footer {
     right: -0.25em;
   }
   .order-button {
+    top: -2em;
     left: 2em;
     font-size: 16px;
   }
